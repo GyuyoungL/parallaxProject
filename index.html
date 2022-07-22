@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Steps for setting up account</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>1. Navigate to the Administrative Systems Portal</p>
+            <p>2. From the menu on the left-hand side, select Business Process Portal</p>
+            <p>3. Click Launch application</p>
+            <p>4. Enter your Network A username and password</p>
+            <p>5. Click Sign in</p>
+            <p>6. From the Access Requests menu at the top, select Initiate a CARS Request</p>
+            <p>7. Review your credentials and click Next in the top-right corner of the page. Note: If changes are required, follow the instructions provided on the page</p>
+            <p>8. Select whom the request is for and click Next</p>
+            <p>9. From the Select an Access Type dropdown menu, select Other access</p>
+            <p>10. From the Select an Access Provider dropdown menu, select ORLSRCD/DDOSLCR</p>
+            <p>11. From the Select a Request Type dropdown menu, select Smart Daily Access</p>
+            <p>12. Click Next</p>
+            <p>13. Enter a brief description to indicate the reason for your request</p>
+            <p>14. Review and accept the terms and conditions</p>
+            <p>15. Click Submit to submit your request for approval</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="testModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Steps for setting up account</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p> 1. Open the SRM portal (http://srm/)</p>
+            <p> 2. Select Dissemination requests</p>
+            <p> 3. Select Dissemination services</p>
+            <p> 4. Select Publishing Services – web development (statcan.gc.ca)</p>
+            <p> 5. Select New content</p>
+            <p> ** NOTE : The Web Dev team has <span style="text-decoration:underline; color:cornflowerblue; font-weight: 500;">5 business day</span> turnaround time
+            <br/> If you have any questions, you can contact the Web Development Team at STATCAN.F DISS-Web Development / DIFF-Développement Web F.STATCAN **
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <div class="progress-bar">
+        <div class="progress-bar-inner">0%</div>
+      </div>
+    </header>
+    <main>
+      <div class="night">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div id="title"></div>
+        <div class="hero">
+          <h1>PODCASTS</h1>
+          <img src="./img/blue-stripe-planet-02.png" class="marble" data-value="-2" alt="" />
+          <img src="./img/Red-planet-02.png" class="marble2" data-value="-2" alt="" />
+          <img src="./img/astronaut-02.png" class="astronaut" data-value="-2" alt="" />
+          <img src="./img/satellite-02.png" class="satellite" data-value="-2" alt="" />
+          <img src="./img/yellow-planet-02.png" class="yellow-planet" data-value="-2" alt="" />
+          <img src="./img/moon-02.png" class="moon" data-value="-2" alt="" />
+          <div class="bg">
+            <img src="./img/blue-green-planet-02.png" class="bg-circle" data-value="-2" alt="" />
+          </div>
+        </div>
+        <section class="step1">
+          <h2 class="checklist">1. Client checklist</h2>
+          <div class="checklist-parent">
+            <div class="checklist0">
+              <div class="image-wrapper">
+                <img src="./img/unchecked.png" class="unchecked" data-value="-2" alt="" />
+                <img src="./img/checked.png" class="checked deactivate" data-value="-2" alt="" />
+                <p>
+                  Smart Daily Tool account <br />
+                  <span class="pop-up" data-toggle="modal" data-target="#exampleModal">Steps for setting up account </span>
+                </p>
+              </div>
+            </div>
+            <div class="checklist1">
+              <div class="image-wrapper">
+                <img src="./img/unchecked.png" class="unchecked" data-value="-2" alt="" />
+                <img src="./img/checked.png" class="checked deactivate" data-value="-2" alt="" />
+                <p>MP3 files rendered at 96kbps, compressed if over 50mb in size, French and English – Final version</p>
+              </div>
+            </div>
+            <div class="checklist2">
+              <div class="image-wrapper">
+                <img src="./img/unchecked.png" class="unchecked" data-value="-2" alt="" />
+                <img src="./img/checked.png" class="checked deactivate" data-value="-2" alt="" />
+                <p>Transcripts, French and English that follow correct format in Word doc format – Final version</p>
+              </div>
+            </div>
+            <div class="checklist3">
+              <div class="image-wrapper">
+                <img src="./img/unchecked.png" class="unchecked" data-value="-2" alt="" />
+                <img src="./img/checked.png" class="checked deactivate" data-value="-2" alt="" />
+                <p>Episode description (including the subject, list of guest(s) and host(s), release date), <br />English and French, Word doc format titled Description</p>
+              </div>
+            </div>
+            <div class="checklist4">
+              <div class="image-wrapper">
+                <img src="./img/unchecked.png" class="unchecked" data-value="-2" alt="" />
+                <img src="./img/checked.png" class="checked deactivate" data-value="-2" alt="" />
+                <p>Drupal account</p>
+                <a href="./file/Creating a Drupal Account.pdf" download>
+                  <p class="download">Instructions for creating a Drupal account</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="step2">
+          <img src="./img/fireball-02.png" class="shape" data-value="-2" alt="" />
+          <h2 class="registration">2. Registration with ALO</h2>
+          <div class="registration-parent">
+            <p class="register1">Submit a Service Request to Dissemination Services.</p>
+            <p class="register2">Select the category and request type Author Liaison-Product Registration.</p>
+            <p class="register3">Include the following information:<br/>
+              - Title of podcast in English and French<br/>
+              - Tentative release date<br/>
+              - Expected file format (HTML)<br/>
+              - Fill out form and attach to Service Request<br/>
+            </p>
+            <p class="register4">Once you have received your registered, you can move to step 3.</p>
+          </div>
+        </section>
+        <section class="step3">
+            <div class="scene">
+              <div class="rocket">
+                <img src="./img/rocket.png" alt="" />
+              </div>
+            </div>
+          <h2>3. Book your product in Daily</h2>
+          <div class="shape-parent">
+            <p>Click
+            <a href="./file/instructions for daily.pdf" download>
+              <span class="download">here</span> 
+            </a>
+            for Instructions on how to book daily</p>
+          </div>
+          <div class="wind">
+            <svg id="wind1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 500 610">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: #f3a42e;
+                  }
+                </style>
+              </defs>
+              <path id="galaxy" class="cls-1" d="M884.76,617.63C865.19,458,730.1,321.14,564.91,238l.08-.07c-142.34-62.61-87.75,54.1-62.4,113.71,29.34,59.63,51.55,118.39,89.75,175.07C624,581.4,672.44,625,715.94,674.4c23.92,22,38.72,58.66,74.5,54-10.25-12.07-31.33-10.67-39.74-27.7-51.65-62.25-114-114.19-154.33-182.42C519.53,381.42,392.3,155.77,570.3,249c-.37.22-.74.44-1.13.7,122.16,57,225.6,146.81,272.5,256.72,0,0-.08.06,0,0h0l-.1,0h.11c.53.49-.71.42,1.34,2.64,80.36,172,19,212.65-121.41,72-69.83-69.76-159-221-149.32-233.33C591.15,322.08,669.69,383,681,390.64,815.54,489.06,779.55,585.15,720.55,509c-30.87-40.74-68.17-69.5-60.16-84,28.16-.68,56.19,35.7,68.66,47.91,4.92,6.41-8.06,13.84-.15,19.91,17.75,8.21,19.6-17.75,5.55-25.27C711.79,450.4,697.56,429,669,417.64c-61.07-17.63,24.84,70.92,31.5,79.6,16.39,17.92,55.42,73.28,77.16,39,41.8-69.7-195-248.3-214.3-192.41,9.1,77.85,129.76,217.62,149.27,239.91C776.93,655.59,899.63,731.43,884.76,617.63Z" transform="translate(-470.87 -220)" />
+            </svg>
+          </div>
+          <div class="wind2">
+            <svg id="wind2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297.05 431.6">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: #1e8b92;
+                  }
+                </style>
+              </defs>
+              <path id="galaxy" class="cls-1" d="M549.23,499.89c10.88,21.85,33.4,102,60.91,78.77,4.54-91.23-128.76-185.85-78.45-38.54,23.34,46.53,59.25,92.81,101,102.08,90.7,10.68-137.75-427.3-187.37-293.07C394.41,506,614.7,722.35,676.6,742.42c107.67-8.3.21-233.11-21.46-275.86C634.07,421,602.5,385.68,577.08,343.17,643.74,395.53,804.65,718,688.94,749.26c-39.57,11.66-128.16-92.32-136.57-102.19C479.21,564.78,405.9,448.39,442.19,342.74c65.56-128.08,279,294,202,308.15-59.79.94-109.61-86.17-122.42-119.94-14-46.28-6.72-99.69,44.32-62.31,22.78,16.66,88.15,134.25,27.69,121.16C574,585,535.06,500.77,549.23,499.89Z" transform="translate(-432.61 -318.57)"/>
+            </svg>          
+          </div>
+          <img src="./img/Star-02.png" alt="" class="star1">
+          <img src="./img/Star-2-02.png" alt="" class="star2">
+          <img src="./img/Star-2-02.png" alt="" class="star3">
+          <img src="./img/Star-02.png" alt="" class="star4">
+        </section>
+        <section class="step4">
+          <div class="astronaut_section">
+            <img src="./img/astronaut.png" class="foreground" />
+            <img src="./img/moon.png" class="background" />
+          </div>
+          <div class="creation-parent">
+            <h2 class="creation">4. Creating a new folder</h2>
+            <p class="creation1">Create a new folder for you podcast episode on the Web Dev shared drive on Net A, located here: <br/> <span style="font-style:italic"> &nbsp; &nbsp; \\fld7filer\DISS_WebDev\Podcasts\Eh Sayers </span> </p>
+            <p class="creation2">Name folder to include the season and episode numbers using the following convention:<br/> <span style="font-style:italic">&nbsp; &nbsp; Season 2 Episode 3. <br/> &nbsp; &nbsp; Place your Description doc in this folder </span></p>
+            <p class="creation3">Within your new folder create 2 subfolders, Audio and Transcripts for your MP3 files and your transcripts.</p>
+          </div>
+        </section>
+        <section class="step5">
+          <div class="card">
+            <img src="./img/baby_astronaut.png" class="baby_astronaut"/>
+            <div class="moon2">
+              <div></div>
+            </div>
+          </div>
+          <div class="bg_night">
+            <div class="bg_star"></div>
+            <div class="bg_star"></div>
+            <div class="bg_star"></div>
+            <div class="bg_star"></div>
+            <div class="bg_star"></div>
+          </div>
+          <div class="submission-parent">
+            <h2 class="submission">5. Submission to Web Development team</h2>
+            <p class="submission2">- Daily release date</p>
+            <p class="submission3">- Product registration number from ALO</p>
+            <p class="submission4">- The name of your podcast folder <br/>
+              <span class="pop-up" data-toggle="modal" data-target="#testModal">Steps for setting up account </span>
+            </p>
+          </div>
+        </section>
+
+
+        <section class="step6">
+          <div class="scrollable">
+            <h2>APPROVAL</h2>
+            <div class="approval">
+              <div class="approval_container">
+                <div class="first">
+                  <p> The Web Dev team will create your page and the links</p>
+                  <hr>
+                  <p>You must give approval <span style="font-weight:bold; color:#77b9ec">by 2pm </span><br />the day before release at the latest</p>
+                </div>
+                <div class="last">
+                  <h3>How to review work for approval</h3>
+                  <hr>
+                  <div class="instruction">
+                      <p>1. Go to https://work.wcms.statcan.ca/eng/user</p> 
+                      <p>2. Enter your My StatCan username and password</p>
+                      <p>3. Select Login. You must login to Drupal every time you wish to review content</p>
+                      <p>4. In the address bar of your browser, type or copy and paste the url of the page you wish to review and select Enter</p>
+                      <p>5. Below the title of the page, 2 tabs will be available: <br/>
+                        &nbsp; - View published and View draft. View published is the content currently live on the StatCan website. 
+                        <br/>
+                        &nbsp; - View draft is the new content that you need to review.
+                        <br />
+                        &nbsp; - When you have finished reviewing content, please remember to logout of Drupal to end your session.
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="approval">
+              <div class="approval_container">
+                <div class="first">
+                  Voluptate officia ullamco et est consectetur. In culpa minim velit incididunt nostrud esse anim consequat exercitation commodo esse et non laboris. Est incididunt et eiusmod eiusmod tempor voluptate eiusmod elit. Ad officia amet nostrud sint aliquip adipisicing Lorem sunt. Occaecat fugiat culpa reprehenderit do id do aute Lorem ea laboris veniam sit.
+                  Veniam eiusmod adipisicing cupidatat dolor veniam voluptate mollit aute minim laboris quis. Fugiat deserunt culpa est ad sint ea sunt occaecat enim. Duis sit anim aliqua amet magna incididunt deserunt. Cillum ea exercitation consectetur proident excepteur sint laborum ea cillum. Cupidatat reprehenderit proident commodo laboris dolore. Culpa pariatur velit consectetur minim do voluptate. Sint sunt sint aliqua id et magna reprehenderit aliquip.
+                </div>
+                <div class="last">
+                  Cillum Lorem minim elit dolore aliquip id. Reprehenderit in eiusmod cupidatat eiusmod ex enim sint proident esse. Et dolore amet sunt labore elit proident cillum reprehenderit dolore. Exercitation reprehenderit pariatur sunt exercitation culpa incididunt sunt ullamco velit qui mollit.
+                </div>
+              </div>
+            </div>  
+            <div class="approval">
+              <div class="approval_container">
+                <div class="first">
+                  Voluptate officia ullamco et est consectetur. In culpa minim velit incididunt nostrud esse anim consequat exercitation commodo esse et non laboris. Est incididunt et eiusmod eiusmod tempor voluptate eiusmod elit. Ad officia amet nostrud sint aliquip adipisicing Lorem sunt. Occaecat fugiat culpa reprehenderit do id do aute Lorem ea laboris veniam sit.
+                  Veniam eiusmod adipisicing cupidatat dolor veniam voluptate mollit aute minim laboris quis. Fugiat deserunt culpa est ad sint ea sunt occaecat enim. Duis sit anim aliqua amet magna incididunt deserunt. Cillum ea exercitation consectetur proident excepteur sint laborum ea cillum. Cupidatat reprehenderit proident commodo laboris dolore. Culpa pariatur velit consectetur minim do voluptate. Sint sunt sint aliqua id et magna reprehenderit aliquip.
+                </div>
+                <div class="last">
+                  Cillum Lorem minim elit dolore aliquip id. Reprehenderit in eiusmod cupidatat eiusmod ex enim sint proident esse. Et dolore amet sunt labore elit proident cillum reprehenderit dolore. Exercitation reprehenderit pariatur sunt exercitation culpa incididunt sunt ullamco velit qui mollit.
+                </div>
+              </div>
+            </div>
+            <div class="approval">
+              <div class="approval_container">
+                <div class="first">
+                  Voluptate officia ullamco et est consectetur. In culpa minim velit incididunt nostrud esse anim consequat exercitation commodo esse et non laboris. Est incididunt et eiusmod eiusmod tempor voluptate eiusmod elit. Ad officia amet nostrud sint aliquip adipisicing Lorem sunt. Occaecat fugiat culpa reprehenderit do id do aute Lorem ea laboris veniam sit.
+                  Veniam eiusmod adipisicing cupidatat dolor veniam voluptate mollit aute minim laboris quis. Fugiat deserunt culpa est ad sint ea sunt occaecat enim. Duis sit anim aliqua amet magna incididunt deserunt. Cillum ea exercitation consectetur proident excepteur sint laborum ea cillum. Cupidatat reprehenderit proident commodo laboris dolore. Culpa pariatur velit consectetur minim do voluptate. Sint sunt sint aliqua id et magna reprehenderit aliquip.
+                </div>
+                <div class="last">
+                  Cillum Lorem minim elit dolore aliquip id. Reprehenderit in eiusmod cupidatat eiusmod ex enim sint proident esse. Et dolore amet sunt labore elit proident cillum reprehenderit dolore. Exercitation reprehenderit pariatur sunt exercitation culpa incididunt sunt ullamco velit qui mollit.
+                </div>
+              </div>
+            </div>
+            <div class="approval">
+              <div class="approval_container">
+                <div class="first">
+                  Voluptate officia ullamco et est consectetur. In culpa minim velit incididunt nostrud esse anim consequat exercitation commodo esse et non laboris. Est incididunt et eiusmod eiusmod tempor voluptate eiusmod elit. Ad officia amet nostrud sint aliquip adipisicing Lorem sunt. Occaecat fugiat culpa reprehenderit do id do aute Lorem ea laboris veniam sit.
+                  Veniam eiusmod adipisicing cupidatat dolor veniam voluptate mollit aute minim laboris quis. Fugiat deserunt culpa est ad sint ea sunt occaecat enim. Duis sit anim aliqua amet magna incididunt deserunt. Cillum ea exercitation consectetur proident excepteur sint laborum ea cillum. Cupidatat reprehenderit proident commodo laboris dolore. Culpa pariatur velit consectetur minim do voluptate. Sint sunt sint aliqua id et magna reprehenderit aliquip.
+                </div>
+                <div class="last">
+                  Cillum Lorem minim elit dolore aliquip id. Reprehenderit in eiusmod cupidatat eiusmod ex enim sint proident esse. Et dolore amet sunt labore elit proident cillum reprehenderit dolore. Exercitation reprehenderit pariatur sunt exercitation culpa incididunt sunt ullamco velit qui mollit.
+                </div>
+              </div>
+            </div>
+            <div class="project">
+              <div class="astronaut_wrapper">
+                <img src="./astronaut_1.png" alt="" class="astronaut3">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
